@@ -4,5 +4,7 @@
                           address:Faker::Address.city,)
 
 
-  song = artist.songs.create!(name: Faker::Music.chord, band:Faker::Music.band, genre:Faker::Music.genre)
+  song = artist.songs.create!(name: Faker::Music.chord,
+                              band:Faker::Music.band,
+                              genre:Faker::Music.genre)
 end
